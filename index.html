@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sosun</title>
+    <style>
+body {
+            font-family: sans-serif;
+             background-image:url('viidupoudo.png');
+            background-size:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+form {
+            background: #fff;
+            padding: 30px;
+            border-radius: 60px;
+            width: 400px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+label {
+            display: block;
+            margin-bottom: 16px;
+            font-size: 12px;
+        }
+input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 6px;
+            border: 1px solid #000000;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+button {
+            width: 100%;
+            padding: 11px;
+            background: #5519cb;
+            border: 1px solid #0c32d8;
+            color: white;
+            font-weight: 800;
+            border-radius: 11px;
+            cursor: pointer;
+        }
+        p {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+        a {
+            color: #2c17f0;
+            font-weight: 800;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form>
+        <label>
+            Name<br>
+            <input type="text" name="name">
+        </label>
+
+        <label>
+            Email<br>
+            <input type="text" name="email">
+        </label>
+
+        <label>
+            Password<br>
+            <input type="password" name="password">
+        </label>
+
+        <button type="submit">Register</button>
+
+        <p>Already have an account? <a href="#">Log in</a></p>
+    </form>
+
+</body>
+</html>
